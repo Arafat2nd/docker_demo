@@ -22,8 +22,8 @@ func main() {
 		return c.SendStatus(200)
 	})
 
-	app.Get("/bye", func(c *fiber.Ctx) error {
-		return c.SendString("Bye, World!")
+	app.Get("/kill", func(c *fiber.Ctx) error {
+		return c.SendString("Bye")
 	})
 
 	app.Get("/weather123", func(c *fiber.Ctx) error {

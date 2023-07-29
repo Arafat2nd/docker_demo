@@ -26,7 +26,7 @@ func main() {
 		return c.SendString("Bye, World!")
 	})
 
-	app.Get("/weather", func(c *fiber.Ctx) error {
+	app.Get("/weather123", func(c *fiber.Ctx) error {
 		url := "https://wttr.in"
 
 		res, err := http.Get(url)
